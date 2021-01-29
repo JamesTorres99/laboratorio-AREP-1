@@ -15,19 +15,9 @@ Pruebe minuciosamente el programa. Al menos dos pruebas deben utilizar los datos
 
 Tabla 1 :
 
-		| Estimate Proxy Size  | Development Hours |										
-		| :------: | :------: |																
-		| 160   | 15.0 |
-		| 591   | 69.9 |
-		| 114   | 6.5 |
-		| 229   | 22.4 |
-		| 230   | 28.4 |
-		| 270   | 65.9 |
-		| 128   | 19.4 |
-		| 1657   | 198.7 |
-		| 624   | 38.8 |
-		| 1503   | 138.2 |
+![](resources/9.PNG)
 		
+Tabla 2 :
 
 ![](resources/8.PNG)
 
