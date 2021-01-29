@@ -14,7 +14,7 @@ Pruebe minuciosamente el programa. Al menos dos pruebas deben utilizar los datos
 
 
 Tabla 1 :
-		| Column 1  | Column 2	
+		
 		| Estimate Proxy Size  | Development Hours									
 		| :------: | :------:																
 		| 160  | 15.0
