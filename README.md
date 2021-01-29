@@ -21,6 +21,11 @@ Tabla 2 :
 
 ![](resources/8.PNG)
 
+usando GIT añadimos a nuestro repositorio los documentos y fuentes.
+
+![](resources/10.PNG)
+<br></br>
+
 Resultado :
 
 ![](resources/2.PNG)
