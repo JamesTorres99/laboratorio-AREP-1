@@ -9,14 +9,25 @@ import edu.escuelaing.Arep.Calculadora;
 import edu.escuelaing.Arep.Linkedlist;
 import jdk.javadoc.internal.doclets.formats.html.resources.standard;
 
+/**
+ * Clase main del proyecto
+ * @author Alexander Torres
+ *
+ */
 public class main {
     static Calculadora cal = new Calculadora();
+    
+    /**
+     * Main del proyecto.
+     * @param args 
+     */
     public static void main(String[] args) {
         Linkedlist<Double> lista= new Linkedlist<Double>();
         Linkedlist<Double> lista2= new Linkedlist<Double>();
         try {
 			lista=leer("test1.txt") ;
 			lista2=leer("test2.txt") ;
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}   
@@ -26,14 +37,18 @@ public class main {
         double desvlista1=cal.standarD(lista);
         double desvlista2=cal.standarD(lista2);
 
-        System.out.println("mean1= "+meanlista1+"  desviation1= "+desvlista1);
+        System.out.println("mean table1 Column 1= "+meanlista1+"  desviation table Column 1= "+desvlista1);
         
-        System.out.println("mean2= "+meanlista2+"  desviation2= "+desvlista2);
-
-
+        System.out.println("mean table1 Column 2= "+meanlista2+"  desviation table Column 2= "+desvlista2);
 
     }
 
+    /**
+     * Metodo que lee los ficheros y extrae los valores para usar en la lista enlazada.
+     * @param fichero es la ubicacion del fichero a utilizar.
+     * @return devuelve la lista enlazada con sus valores del fichero.
+     * @throws Exception
+     */
     public static Linkedlist<Double> leer(String fichero) throws Exception{
         File archivo= new File(fichero);
         FileReader documento= new FileReader(archivo);
@@ -42,9 +57,9 @@ public class main {
         Linkedlist<Double> lista= new Linkedlist<Double>();
         while( stringg != null){
             double valor= Double.parseDouble(stringg);
-            lista.add(valor);
+            lista.addini(valor);
             stringg = reader.readLine();
-        }     
+        }    
         return lista;
     }
 }
