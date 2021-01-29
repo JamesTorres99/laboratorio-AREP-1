@@ -24,7 +24,7 @@ public class Node<d> {
 
     /**
      * Metodo get devuelve una referencia al nodo siguiente.
-     * @return Node<d> retorna el nodo siguiente.
+     * @return Nodo retorna el nodo siguiente.
      */
     public Node<d> getnodoSiguiente (){
         return this.nodoSiguiente;
@@ -32,7 +32,7 @@ public class Node<d> {
 
     /**
      * Metodo get devuelve una referencia al nodo anterior.
-     * @return Node<d> retorna el nodo anterior.
+     * @return Node retorna el nodo anterior.
      */
     public Node<d> getnodoanterior (){
         return this.nodoanterior;

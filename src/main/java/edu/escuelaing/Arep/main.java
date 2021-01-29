@@ -7,7 +7,6 @@ import java.io.FileReader;
 import edu.escuelaing.Arep.Calculadora;
 
 import edu.escuelaing.Arep.Linkedlist;
-import jdk.javadoc.internal.doclets.formats.html.resources.standard;
 
 /**
  * Clase main del proyecto
@@ -19,7 +18,7 @@ public class main {
     
     /**
      * Main del proyecto.
-     * @param args 
+     * @param args Funcionalidad del main. 
      */
     public static void main(String[] args) {
         Linkedlist<Double> lista= new Linkedlist<Double>();
@@ -47,7 +46,7 @@ public class main {
      * Metodo que lee los ficheros y extrae los valores para usar en la lista enlazada.
      * @param fichero es la ubicacion del fichero a utilizar.
      * @return devuelve la lista enlazada con sus valores del fichero.
-     * @throws Exception
+     * @throws Exception esta excepcion ocurre al leer el documento.
      */
     public static Linkedlist<Double> leer(String fichero) throws Exception{
         File archivo= new File(fichero);
